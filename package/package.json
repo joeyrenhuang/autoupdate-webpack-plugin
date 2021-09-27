@@ -1,0 +1,26 @@
+{
+  "name": "autoupdate-webpack-plugin",
+  "version": "1.0.0",
+  "main": "dist/index.common.js",
+  "scripts": {
+    "test": "cd __test__ && npm test || npm i && npm test",
+    "build": "rollup -c"
+  },
+  "author": {
+    "id": "01414993",
+    "name": "huangren"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "compare-versions": "^3.6.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "description": "",
+  "devDependencies": {
+    "rollup": "^2.57.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}

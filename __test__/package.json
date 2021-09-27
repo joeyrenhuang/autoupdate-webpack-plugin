@@ -1,0 +1,24 @@
+{
+  "name": "test-autoupdate-webpack-plugin",
+  "version": "1.0.0",
+  "main": "dist/index.common.js",
+  "scripts": {
+    "test": "npm run reset && webpack && npm run clean",
+    "reset": "npm i -D vue@2.0.0 vue-router@2.1.1 vuex@2.1.1 react@15.0.0",
+    "clean": "rm -rf dist/"
+  },
+  "author": "01414993",
+  "license": "ISC",
+  "dependencies": {
+    "autoupdate-webpack-plugin": "file:.."
+  },
+  "devDependencies": {
+    "react": "^17.0.2",
+    "vue": "^2.6.14",
+    "vue-router": "^2.1.1",
+    "vuex": "^2.1.1",
+    "webpack": "^5.54.0",
+    "webpack-cli": "^4.8.0"
+  },
+  "description": ""
+}
