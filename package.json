@@ -7,8 +7,8 @@
     "build": "rollup -c"
   },
   "author": {
-    "id": "01414993",
-    "name": "huangren"
+    "name": "huangren",
+    "email": "joey.ren.huag@gmail.com"
   },
   "license": "ISC",
   "dependencies": {
@@ -17,7 +17,11 @@
   "files": [
     "dist"
   ],
-  "description": "",
+  "keywords": [
+    "webpack",
+    "autoupdate"
+  ],
+  "description": "keep packages updated",
   "devDependencies": {
     "rollup": "^2.57.0",
     "rollup-plugin-commonjs": "^10.1.0",
