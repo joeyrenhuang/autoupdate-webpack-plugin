@@ -1,6 +1,6 @@
 {
   "name": "autoupdate-webpack-plugin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/index.common.js",
   "scripts": {
     "test": "cd __test__ && npm test || npm i && npm test",
